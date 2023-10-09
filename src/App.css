@@ -1,0 +1,124 @@
+*, 
+*::after,
+*::before {
+  transition: all 0.3 ease-in-out;
+}
+
+.content{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  height: 40vh;
+}
+
+.nav{
+  background-color: rgb(70, 92, 92);
+}
+
+.header{
+  background-color: aquamarine;
+}
+
+.about{
+  height: 40vh;
+  background-color: beige;
+}
+
+.call-to-action{
+  background-color: aqua;
+}
+
+.footer{
+  background-color: rgb(245, 202, 202);
+}
+
+.footer.content ul {
+  list-style: none;
+}
+
+.footer.content ul li {
+  padding: 5px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+article {
+  width: 200px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.147);
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+
+div.img{
+  width: 200px;
+  height: 150px;
+  background-color: gray;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  padding-right: 20px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: whitesmoke; 
+}
+
+/* dark themes */
+
+.dark__nav{
+  background-color: #301E67;
+}
+
+.dark__header {
+  background-color: #03001C;
+  color: #dbebe6;
+}
+
+
+.dark__about {
+  background-color: #5D12D2;
+  color: #7cc4af;
+}
+.dark__cta {
+  background-color: #0e0558;
+  color: #B6EADA;
+}
+.dark__footer {
+  background-color: #03001C;
+  color: #B6EADA;
+}
+
+
+.btn{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #5D12D2;
+  color: whitesmoke;
+}
+.dark__btn {
+  background-color: #C70039;
+  color: whitesmoke;
+}
